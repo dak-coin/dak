@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dak Core
+Comment=Dak P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Dak peer-to-peer Netzwerk
+Comment[fr]=Dak, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Dak, eşten eşe kriptografik sanal para birimi
+Exec=dak-qt %u
+Terminal=false
+Type=Application
+Icon=dak128
+MimeType=x-scheme-handler/dak;
+Categories=Office;Finance;

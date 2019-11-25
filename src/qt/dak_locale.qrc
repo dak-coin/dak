@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/dak_bg.qm</file>
+        <file alias="de">locale/dak_de.qm</file>
+        <file alias="en">locale/dak_en.qm</file>
+        <file alias="es">locale/dak_es.qm</file>
+        <file alias="fi">locale/dak_fi.qm</file>
+        <file alias="fr">locale/dak_fr.qm</file>
+        <file alias="it">locale/dak_it.qm</file>
+        <file alias="ja">locale/dak_ja.qm</file>
+        <file alias="nl">locale/dak_nl.qm</file>
+        <file alias="pl">locale/dak_pl.qm</file>
+        <file alias="pt">locale/dak_pt.qm</file>
+        <file alias="ru">locale/dak_ru.qm</file>
+        <file alias="sk">locale/dak_sk.qm</file>
+        <file alias="sv">locale/dak_sv.qm</file>
+        <file alias="vi">locale/dak_vi.qm</file>
+        <file alias="zh_CN">locale/dak_zh_CN.qm</file>
+        <file alias="zh_TW">locale/dak_zh_TW.qm</file>
+    </qresource>
+</RCC>

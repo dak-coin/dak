@@ -1,0 +1,6 @@
+usr/local/bin/dak-qt usr/bin
+share/pixmaps/dak32.xpm usr/share/pixmaps
+share/pixmaps/dak16.xpm usr/share/pixmaps
+share/pixmaps/dak128.png usr/share/pixmaps
+debian/dak-qt.desktop usr/share/applications
+debian/dak-qt.protocol usr/share/kde4/services/

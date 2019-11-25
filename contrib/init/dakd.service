@@ -1,0 +1,22 @@
+[Unit]
+Description=Dak's distributed currency daemon
+After=network.target
+
+[Service]
+User=dakcore
+Group=dakcore
+
+Type=forking
+PIDFile=/var/lib/dakd/dakd.pid
+ExecStart=/usr/bin/dakd -daemon -pid=/var/lib/dakd/dakd.pid \
+-conf=/etc/dakcore/dak.conf -datadir=/var/lib/dakd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

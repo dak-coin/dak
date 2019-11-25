@@ -1,0 +1,11 @@
+[Protocol]
+exec=dak-qt '%u'
+protocol=dak
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
