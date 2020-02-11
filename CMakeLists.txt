@@ -4,7 +4,6 @@
 # If you load this project in CLion and would like to run/debug executables, make sure to remove the "Build" entry from
 # the run/debug configuration as otherwise CLion will try to build this project with cmake, failing horribly.
 # You'll also have to manually change the executable in the configuration to the correct path of the already built executable
-
 cmake_minimum_required(VERSION 3.7)
 project(dak)
 
